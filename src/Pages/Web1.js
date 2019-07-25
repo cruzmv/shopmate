@@ -5,7 +5,7 @@ class Web1 extends React.Component{
     render(){
         return(
             <div>
-                <TopBar skin="red-3" departament={this.props.store.departament}/>   
+                <TopBar skin="white-3" departament={this.props.store.departament}/>   
             </div>
         )
     }
