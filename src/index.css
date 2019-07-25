@@ -1,13 +1,1357 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#iconsbagbl {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#iconssearc {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#logotextre {
+  width: 229px;
+  height: 72px;
+  background: #FFFFFF
+}
+
+#logotextwh {
+  width: 229px;
+  height: 72px;
+  background: #FFFFFF
+}
+
+#iconsburge {
+  width: 72px;
+  height: 72px;
+  background: #FFFFFF
+}
+
+
+#SHOPMATE {
+  width: 176.77px;
+  height: 29px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 4px;
+}
+
+#iconsclose {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#bounds {
+  width: 20px;
+  height: 20px;
+}
+
+#line {
+  width: 5.66px;
+  height: 5.66px;
+  border: solid #2e2e2e;
+  transform: scaleX(-1);
+}
+
+#iconsbagwh {
+  width: 20px;
+  height: 20px;
+}
+
+#iconscheck {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#oval {
+  width: 16px;
+  height: 16px;
+  border: solid #f62f5e
+}
+
+#linecheck {
+  width: 6px;
+  height: 6px;
+  border: solid #f62f5e;
+  transform: scaleX(-1);
+}
+
+#iconsmirro {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+
+#linemirro {
+  width: 2.97px;
+  height: 3px;
+  border: solid #f62f5e
+}
+
+#rectanglemirro {
+  width: 16px;
+  height: 16px;
+  border: solid #f62f5e
+}
+
+#linecopy {
+  width: 7,05px;
+  height: 7,06px;
+  border: solid #f62f5e
+}
+
+
+#iconsboxre {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#rectangle1 {
+  width: 14px;
+  height: 9px;
+  border: solid #f62f5e
+}
+
+
+#rectangle2 {
+  width: 4px;
+  height: 1px;
+  border: solid #f62f5e;
+  transform: scaleY(-1);
+}
+
+#rectangle3 {
+  width: 16px;
+  height: 5px;
+  border: solid #f62f5e;
+  transform: scaleY(-1);
+}
+
+
+#iconscardr {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#rectangleiconscardr {
+  width: 18px;
+  height: 12px;
+  border: solid #f62f5e
+}
+
+#lineiconscardr1 {
+  width: 17.7px;
+  height: 2px;
+  border: solid #f62f5e
+}
+
+#lineiconscardr2 {
+  width: 1.86px;
+  height: 2px;
+  border: solid #f62f5e
+}
+
+#iconsbackb {
+  width: 72px;
+  height: 72px;
+  background: #FFFFFF
+}
+#iconsbackb-bg {
+  width: 72px;
+  height: 72px;
+}
+
+#iconsbackb-path1 {
+  width: 28.72px;
+  height: 2px;
+  border: solid #f62f5e
+}
+
+#iconsbackb-path2 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #f62f5e;
+  transform: scaleX(-1);
+}
+
+#iconsbackb-path3 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #f62f5e;
+  transform: scaleX(-1) scaleY(-1);
+}
+
+
+#iconsfaceb-bg {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF}
+
+#iconsfaceb {
+  width: 40px;
+  height: 40px;
+  background: #eaeaea;
+}
+
+#iconstwitt-bg {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF}
+
+#iconstwitt {
+  width: 40px;
+  height: 40px;
+  background: #eaeaea;
+}
+
+#iconspinte-bg {
+  width: 40px;
+  height: 40px;
+}
+
+#iconspinte {
+  width: 40px;
+  height: 40px;
+  background: #eaeaea;
+}
+
+#iconsinsta-bg {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF}
+
+#iconsinsta {
+  width: 40px;
+  height: 40px;
+  background: #eaeaea;
+}
+
+
+#iconsemail {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconsemail-rectangle {
+  width: 18px;
+  height: 12px;
+  border: solid #2e2e2e
+}
+
+#iconsemail-rectangleC {
+  width: 17.99px;
+  height: 7.29px;
+  border: solid #2e2e2e
+}
+
+
+#iconsbackbW-path1 {
+  width: 28.72px;
+  height: 2px;
+  border: solid #ffffff
+}
+
+#iconsbackbW-path2 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #ffffff;
+  transform: scaleX(-1);
+}
+
+#iconsbackbW-path3 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #ffffff;
+  transform: scaleX(-1) scaleY(-1);
+}
+
+#iconsforwa {
+  width: 72px;
+  height: 72px;
+  background: #FFFFFF}
+
+#iconsforwa-bg {
+  width: 72px;
+  height: 72px;
+}
+
+#iconsforwaW-path1 {
+  width: 28.72px;
+  height: 2px;
+  border: solid #ffffff;
+  transform: scaleX(-1);
+}
+
+#iconsforwaW-path2 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #ffffff
+}
+
+#iconsforwaW-path3 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #ffffff;
+  transform: scaleY(-1);
+}
+
+#iconsheart {
+  width: 20px;
+  height: 20px;
+}
+
+#heart {
+  width: 16px;
+  height: 14px;
+  border: solid #f62f5e
+}
+
+#iconscomme {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#bubble {
+  width: 15.89px;
+  height: 16px;
+  border: solid #2e2e2e
+}
+
+
+#iconsbookm {
+  width: 20px;
+  height: 20px;
+}
+
+#flag {
+  width: 14px;
+  height: 17.52px;
+  border: solid #2e2e2e
+}
+
+#iconsmoreb {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#dots {
+  width: 12px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+
+#iconscloseBB {
+  width: 72px;
+  height: 72px;
+}
+
+#iconscloseBB-bg {
+  width: 72px;
+  height: 72px;
+}
+
+#iconscloseBB-path1 {
+  width: 21.92px;
+  height: 22.09px;
+  border: solid #2e2e2e
+}
+
+#iconscloseBB-path2 {
+  width: 21.92px;
+  height: 22.09px;
+  border: solid #2e2e2e;
+  transform: scaleX(-1);
+}
+
+#iconsminus {
+  width: 20px;
+  height: 20px;
+}
+
+#iconsminus-path {
+  width: 2px;
+  height: 13.99px;
+  border: solid #2e2e2e;
+ /* transform: rotate(-90.00001deg); */
+}
+
+
+#iconsplusb {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconsplusb-path1 {
+  width: 2px;
+  height: 14px;
+  border: solid #2e2e2e
+}
+
+#iconsplusb-path2 {
+  width: 2px;
+  height: 13.99px;
+  border: solid #2e2e2e;
+  transform: rotate(-90,00001deg);
+}
+
+
+#iconsarrow {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#iconsarrowUp-line1 {
+  width: 5.99px;
+  height: 5.64px;
+  border: solid #2e2e2e
+}
+
+#iconsarrowUp-line2 {
+  width: 6px;
+  height: 5.64px;
+  border: solid #2e2e2e
+}
+
+#iconsfilte {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconsfilte-path1 {
+  width: 13.12px;
+  height: 8px;
+  border: solid #f62f5e
+}
+
+#iconsfilte-path2 {
+  width: 2px;
+  height: 6.04px;
+  border: solid #f62f5e
+}
+
+
+#iconsarrowDown-line1 {
+  width: 3.97px;
+  height: 4.01px;
+  border: solid #2e2e2e
+}
+
+#iconsarrowDown-line2 {
+  width: 4.03px;
+  height: 4.02px;
+  border: solid #2e2e2e
+}
+
+
+#iconsarrowLeft-line1 {
+  width: 5.99px;
+  height: 5.64px;
+  border: solid #2e2e2e
+}
+
+#iconsarrowLeft-line2 {
+  width: 6px;
+  height: 5.64px;
+  border: solid #2e2e2e
+}
+
+
+#iconsarrowRight-line1 {
+  width: 5.99px;
+  height: 5.64px;
+  border: solid #2e2e2e;
+  transform: scaleX(-1);
+}
+
+#iconsarrowRight-line2 {
+  width: 6px;
+  height: 5.64px;
+  border: solid #2e2e2e;
+
+}
+
+
+#iconsheartBlack {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#iconsheartBlack-heart {
+  width: 16px;
+  height: 14px;
+  border: solid #2e2e2e
+}
+
+
+#iconslistb {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconslistb-path1 {
+  width: 14px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+#iconslistb-path2 {
+  width: 14px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+#iconslistb-path3 {
+  width: 14px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+
+
+#iconslistw {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#iconslistw-path1 {
+  width: 14px;
+  height: 2px;
+  border: solid #ffffff
+}
+
+#iconslistw-path2 {
+  width: 14px;
+  height: 2px;
+  border: solid #ffffff
+}
+
+#iconslistw-path3 {
+  width: 14px;
+  height: 2px;
+  border: solid #ffffff
+}
+
+
+#iconsgridb {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#oval33Copy {
+  width: 2px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+
+#iconsstarg-bg {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconsstarg {
+  width: 20px;
+  height: 20px;
+  background: #ffc94f;
+}
+
+#iconsstarg {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#star5 {
+  width: 20px;
+  height: 20px;
+  background: #eeeeee;
+}
+
+
+#iconsforwaRed-path1 {
+  width: 28.72px;
+  height: 2px;
+  border: solid #f62f5e;
+}
+
+#iconsforwaRed-path2 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #f62f5e
+}
+
+#iconsforwaRed-path3 {
+  width: 11.04px;
+  height: 10.97px;
+  border: solid #f62f5e;
+}
+
+
+#iconscardb {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconscardb-rectangle {
+  width: 18px;
+  height: 12px;
+  border: solid #2e2e2e
+}
+
+#iconscardb-line1 {
+  width: 17.7px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+#iconscardb-line2 {
+  width: 1.86px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+
+#iconsperso {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconsperso-oval1 {
+  width: 9.44px;
+  height: 7px;
+  border: solid #2e2e2e
+}
+
+#iconsperso-oval2 {
+  width: 8px;
+  height: 8px;
+  border: solid #2e2e2e
+}
+
+
+#iconscalen {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF}
+
+#iconscalen-rectangle {
+  width: 12px;
+  height: 12px;
+  border: solid #2e2e2e
+}
+
+#iconscalen-dot {
+  width: 3px;
+  height: 2px;
+  border: solid #2e2e2e
+}
+
+#iconscalen-line {
+  width: 2px;
+  height: 1.97px;
+  border: solid #2e2e2e
+}
+
+
+#iconslockb {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF
+}
+
+#iconslockb-oval1 {
+  width: 10px;
+  height: 7.06px;
+  border: solid #2e2e2e
+}
+
+#iconslockb-oval2 {
+  width: 6px;
+  height: 4px;
+  border: solid #2e2e2e
+}
+
+
+#iconsrocke {
+  width: 282px;
+  height: 252px;
+  background: #FFFFFF}
+
+#iconsrocke-bg {
+  width: 282px;
+  height: 168px;
+}
+
+#iconsrocke-oval1 {
+  width: 160px;
+  height: 160px;
+  background: #f7f7f7;
+}
+
+#iconsrocke-triangle1 {
+  width: 9px;
+  height: 9px;
+  background: #e9eeef;
+}
+
+#iconsrocke-triangle2 {
+  width: 14px;
+  height: 9px;
+  background: #e9eeef;
+  transform: rotate(-45deg);
+}
+
+#iconsrocke-triangle3 {
+  width: 24.68px;
+  height: 15.86px;
+  background: #e9eeef;
+  transform: rotate(-45deg);
+}
+
+#iconsrocke-oval2 {
+  width: 14px;
+  height: 14px;
+  background: #e9eeef;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-oval3 {
+  width: 10px;
+  height: 10px;
+  background: #e9eeef;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-oval4 {
+  width: 18px;
+  height: 18px;
+  background: #e9eeef;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-oval5 {
+  width: 10px;
+  height: 10px;
+  background: #e9eeef;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-oval6 {
+  width: 6px;
+  height: 6px;
+  background: #e9eeef;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-oval7 {
+  width: 18px;
+  height: 18px;
+  background: #e9eeef;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-oval8 {
+  width: 18px;
+  height: 18px;
+  background: #e9eeef;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-rectangle1 {
+  width: 10px;
+  height: 10px;
+  background: #e9eeef;
+}
+
+#iconsrocke-rectangle2 {
+  width: 18px;
+  height: 18px;
+  background: #e9eeef;
+}
+
+#iconsrocke-rectangle3 {
+  width: 14px;
+  height: 14px;
+  background: #e9eeef;
+}
+
+#iconsrocke-rectangle4 {
+  width: 7px;
+  height: 7px;
+  background: #e9eeef;
+}
+
+#rocket {
+  width: 144px;
+  height: 212px;
+  transform: rotate(45,00001deg);
+}
+
+#iconsrocke-oval9 {
+  width: 24px;
+  height: 31,64px;
+  background: #e9eeef;
+  transform: scaleY(-1);
+}
+
+#iconsrocke-oval10 {
+  width: 71.56px;
+  height: 71.2px;
+  border: solid 4px #252529;
+  background: #ffffff;
+}
+
+#iconsrocke-oval11 {
+  width: 71.56px;
+  height: 88.68px;
+  border: solid 4px #252529;
+  background: #ffffff;
+  transform: scaleX(-1);
+}
+
+#iconsrocke-oval12 {
+  width: 107.78px;
+  height: 155.12px;
+  border: solid 4px #252529;
+  background: #6eb2fb;
+}
+
+#iconsrocke-oval13 {
+  width: 28.63px;
+  height: 37.74px;
+  border: solid 4px #252529;
+  background: #ffffff;
+  transform: scaleY(-1);
+}
+
+#iconsrocke-oval14 {
+  width: 40px;
+  height: 40px;
+  border: solid 4px #252529;
+  background: #ffffff;
+}
+
+#iconsrocke-oval15 {
+  width: 20px;
+  height: 20px;
+  border: solid 4px #252529;
+  background: #ffffff;
+}
+
+#iconsrocke-oval16 {
+  width: 40px;
+  height: 51,49px;
+  background: #ffffff;
+}
+
+#iconsrocke-oval17 {
+  width: 15px;
+  height: 20px;
+  background: #e9eeef;
+}
+
+#iconsrocke-oval18 {
+  width: 8px;
+  height: 7,4px;
+  background: #e9eeef;
+}
+
+
+
+
+
+
+
+#controlsnu {
+  width: 24px;
+  height: 27px;
+}
+
+#controlsnuRed-bg {
+  width: 24px;
+  height: 24px;
+  background: #f62f5e;
+}
+
+#controlsnuRed-a {
+  width: 6.27px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#controlsnuWhite {
+  width: 24px;
+  height: 27px;
+  background: #FFFFFF
+}
+
+#controlsnuWhite-bg {
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  box-shadow: -2px 2px rgba(0,0,0,0,5);
+}
+
+#controlsnuWhite-a {
+  width: 10.19px;
+  height: 24px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#controlspa {
+  width: 76px;
+  height: 12px;
+  background: #FFFFFF}
+
+#controlspa-a1 {
+  width: 12px;
+  height: 12px;
+  border: solid #ffffff
+}
+
+#controlspaLight-active {
+  width: 12px;
+  height: 12px;
+  border: solid #ffffff;
+  background: #ffffff;
+}
+
+#controlspaLight-a2 {
+  width: 12px;
+  height: 12px;
+  border: solid #ffffff
+}
+
+
+#controlspaDark-a {
+  width: 12px;
+  height: 12px;
+  border: solid rgba(0,0,0,0.2)
+}
+
+#controlspaDark-active {
+  width: 12px;
+  height: 12px;
+  background: rgba(0,0,0,0.4);
+}
+
+
+#controlschOn {
+  width: 16px;
+  height: 16px;
+  background: #FFFFFF}
+
+#controlschOn-bg {
+  width: 16px;
+  height: 16.06px;
+  border: solid 1px #6eb2fb;
+  background: #6eb2fb;
+}
+
+#controlschOn-check {
+  width: 8.03px;
+  height: 4.99px;
+  border: solid #ffffff
+}
+
+
+
+#controlschOff {
+  width: 16px;
+  height: 16px;
+  background: #FFFFFF}
+
+#controlschOff-bg {
+  width: 16px;
+  height: 15,94px;
+  background: #efefef;
+}
+
+
+#controlsraOn {
+  width: 16px;
+  height: 16px;
+  background: #FFFFFF}
+
+#controlsraOn-bg {
+  width: 16px;
+  height: 16px;
+  border: solid #6eb2fb;
+  background: #6eb2fb;
+}
+
+#controlsraOn-dot {
+  width: 4.4px;
+  height: 4.4px;
+  background: #ffffff;
+}
+
+
+#controlsraOff {
+  width: 16px;
+  height: 16px;
+  background: #FFFFFF}
+
+#controlsraOff-bg {
+  width: 16px;
+  height: 16px;
+  background: #efefef;
+}
+
+
+
+#controlspaBlue-a {
+  width: 12px;
+  height: 12px;
+  border: solid #6eb2fb
+}
+
+#controlspaBlue-active {
+  width: 12px;
+  height: 12px;
+  background: #6eb2fb;
+}
+
+
+
+
+
+
+
+#buttonsmedWhite {
+  width: 163px;
+  height: 48px;
+  background: #FFFFFF}
+
+#buttonsmedWhite-bg {
+  width: 163px;
+  height: 48px;
+  background: #ffffff;
+  box-shadow: -2px 2px rgba(0,0,0,0,5);
+}
+
+#buttonsmedWhite-calltoActi {
+  width: 163px;
+  height: 24px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#buttonsmedRed {
+  width: 163px;
+  height: 48px;
+  background: #FFFFFF}
+
+#buttonsmedRed-bg {
+  width: 163px;
+  height: 48px;
+  background: #f62f5e;
+}
+
+#buttonsmedRed-calltoActi {
+  width: 163px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#buttonssmaRed {
+  width: 91px;
+  height: 35px;
+  background: #FFFFFF}
+
+#buttonssmaRed-bg {
+  width: 91px;
+  height: 35px;
+  background: #f62f5e;
+}
+
+#buttonssmaRed-calltoActi {
+  width: 91px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#buttonssmaWhite {
+  width: 91px;
+  height: 35px;
+  background: #FFFFFF}
+
+#buttonssmaWhite-bg {
+  width: 91px;
+  height: 35px;
+  background: #ffffff;
+  box-shadow: -2px 2px rgba(0,0,0,0,5);
+}
+
+#buttonssmaWhite-calltoActi {
+  width: 91px;
+  height: 24px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+
+#buttonsbigRed {
+  width: 221px;
+  height: 60px;
+  background: #FFFFFF}
+
+#buttonsbigRed-bg {
+  width: 221px;
+  height: 60px;
+  background: #f62f5e;
+}
+
+#buttonsbigRed-calltoActi {
+  width: 221px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#buttonsbigWhite {
+  width: 221px;
+  height: 60px;
+  background: #FFFFFF}
+
+#buttonsbigWhite-bg {
+  width: 221px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: -2px 2px rgba(0,0,0,0,5);
+}
+
+#buttonsbigWhite-calltoActi {
+  width: 221px;
+  height: 24px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+
+
+#badgesgree {
+  width: 57px;
+  height: 27px;
+  background: #FFFFFF}
+
+#badgesgree-bg {
+  width: 57px;
+  height: 24px;
+  background: #00d3ca;
+}
+
+#badgesgree-sale {
+  width: 42.86px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#badgesoran {
+  width: 57px;
+  height: 26px;
+  background: #FFFFFF}
+
+#badgesoran-bg {
+  width: 57px;
+  height: 24px;
+  background: #fe5c07;
+}
+
+#badgesoran-pop {
+  width: 36.93px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#badgesred {
+  width: 57px;
+  height: 27px;
+}
+
+#badgesred-bg {
+  width: 57px;
+  height: 24px;
+  background: #f62f5e;
+}
+
+#badgesred-hot {
+  width: 36.32px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#badgesblue {
+  width: 57px;
+  height: 27px;
+  background: #FFFFFF}
+
+#badgesblue-bg {
+  width: 57px;
+  height: 24px;
+  background: #6eb2fb;
+}
+
+#badgesblue-blue {
+  width: 46,7px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+
+#topbar {
+  width: 1000px;
+  height: 72px;
+}
+
+#topbar-bg {
+  width: 1000px;
+  height: 72px;
+
+}
+
+.bg-white{
+  background: #ffffff;
+}
+
+.bg-red{
+  background: #f62f5e;
+}
+
+.bg-black{
+  background: #2e2e2e;
+}
+
+#menu {
+  width: 438px;
+  height: 36px;
+}
+
+
+.linkMenu {
+  width: 80px;
+  height: 36px;
+  
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.linkMenu-black{
+  color: #2e2e2e;
+}
+
+.linkMenu-white{
+  color: #FFFFFF;
+}
+
+#topbarrow{
+  align-items: center;
+}
+
+
+#numbag{
+  position: absolute;
+  top: -15px;
+  left: 140px;
+}
+
+
+#iconsTop {
+  display: flex;
+  justify-content: flex-end;  
+}
+
+
+
+#iconsearch-line {
+  width: 4px;
+  height: 4px;
+  border: solid #ffffff
+}
+
+
+.hide {
+  visibility: hidden;
 }

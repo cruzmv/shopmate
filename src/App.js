@@ -1,26 +1,65 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter , Route } from "react-router-dom";
+import { Container, Row } from 'react-bootstrap'
 import './App.css';
+import Web1 from "./Pages/Web1";
+import Web2 from "./Pages/Web2";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+
+  constructor(){
+    super()
+    this.state = {
+      departament: [],
+      isLoaded: false
+    }
+  }
+
+
+  componentDidMount(){
+
+
+    fetch("https://backendapi.turing.com/departments")
+        .then(response => response.json())
+        .then(result =>  {
+            this.setState({
+                departament: result,
+                isLoaded: true
+            })
+    })
+
+
+  }
+
+
+  render(){
+    return(
+      <BrowserRouter >
+        <div>
+          <Root>
+            {/*<Route exact path={"/"} component={Web1} />*/}
+            <Route exact path={"/"} render={props => <Web1 store={this.state} {...props} />} />
+            <Route path="/Web2/:id" render={props => <Web2 store={this.state} {...props} />} />
+          </Root>
+        </div>
+      </BrowserRouter >
+    ) 
+  }
+
+
 }
 
+
+class Root extends React.Component{
+  render(){
+    return (
+      <Container id="bg-root">
+          <Row>
+              {this.props.children}
+          </Row>
+      </Container>
+    );
+  }
+
+}
 export default App;

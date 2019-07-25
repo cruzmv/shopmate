@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="76px" height="12px" viewBox="0 0 76 12" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" id="path_1" />
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(32 0)" id="path_2" />
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(48 0)" id="path_3" />
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(64 0)" id="path_4" />
+    <rect width="76" height="12" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_3">
+      <use xlink:href="#path_2" />
+    </clipPath>
+    <clipPath id="clip_4">
+      <use xlink:href="#path_3" />
+    </clipPath>
+    <clipPath id="clip_5">
+      <use xlink:href="#path_4" />
+    </clipPath>
+  </defs>
+  <g id="controls/paging/dark" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <g id="1">
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_1" fill="none" stroke="#000000" stroke-opacity="0.2" stroke-width="4" />
+      </g>
+    </g>
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(16 0)" id="active" fill="#000000" fill-opacity="0.4" stroke="none" />
+    <g id="3">
+      <g clip-path="url(#clip_3)">
+        <use xlink:href="#path_2" fill="none" stroke="#000000" stroke-opacity="0.2" stroke-width="4" />
+      </g>
+    </g>
+    <g id="4">
+      <g clip-path="url(#clip_4)">
+        <use xlink:href="#path_3" fill="none" stroke="#000000" stroke-opacity="0.2" stroke-width="4" />
+      </g>
+    </g>
+    <g id="5">
+      <g clip-path="url(#clip_5)">
+        <use xlink:href="#path_4" fill="none" stroke="#000000" stroke-opacity="0.2" stroke-width="4" />
+      </g>
+    </g>
+  </g>
+</svg>

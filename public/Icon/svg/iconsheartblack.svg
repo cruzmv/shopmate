@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <rect width="20" height="20" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="icons/heart/black" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
+    <path d="M7.99989 14C8.63094 13.3964 12.2332 9.94818 14.4852 7.794C16.5028 5.86359 16.4597 3.04998 14.6253 1.30449C12.7909 -0.441443 9.82469 -0.43379 7.99989 1.32134C6.17525 -0.43379 3.209 -0.441443 1.3746 1.30449C-0.459808 3.04998 -0.502696 5.86359 1.51476 7.794C3.7666 9.94818 7.36932 13.3964 7.99989 14" transform="translate(2 3)" id="heart" fill="none" stroke="#2E2E2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

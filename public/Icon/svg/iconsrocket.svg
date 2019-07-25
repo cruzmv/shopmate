@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="282px" height="252px" viewBox="0 0 282 252" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <rect width="282" height="252" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="icons/rocket" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <g id="bg" transform="translate(0 44)">
+      <path d="M80 160C124.183 160 160 124.183 160 80C160 35.8172 124.183 0 80 0C35.8172 0 0 35.8172 0 80C0 124.183 35.8172 160 80 160Z" transform="translate(70 0)" id="Oval" fill="#F7F7F7" stroke="none" />
+      <path d="M4.5 0L9 9L0 9L4.5 0Z" transform="translate(256 27)" id="Triangle" fill="#E9EEEF" stroke="none" />
+      <path d="M7 0L14 9L0 9L7 0Z" transform="matrix(0.7071068 -0.7071068 0.7071068 0.7071068 256.8683 144.2678)" id="Triangle" fill="#E9EEEF" stroke="none" />
+      <path d="M12.3388 0L24.6777 15.8642L0 15.8642L12.3388 0Z" transform="matrix(0.7071068 -0.7071068 0.7071068 0.7071068 3.332558 89.44975)" id="Triangle" fill="#E9EEEF" stroke="none" />
+      <path d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14Z" transform="matrix(-1 0 0 1 70 0)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" transform="matrix(-1 0 0 1 54 48)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" transform="matrix(-1 0 0 1 41 116)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" transform="matrix(-1 0 0 1 251 58)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M3 6C4.65685 6 6 4.65685 6 3C6 1.34315 4.65685 0 3 0C1.34315 0 0 1.34315 0 3C0 4.65685 1.34315 6 3 6Z" transform="matrix(-1 0 0 1 239 128)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" transform="matrix(-1 0 0 1 260 93)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" transform="matrix(-1 0 0 1 18 39)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M0 0L10 0L10 10L0 10L0 0Z" transform="translate(272 58)" id="Rectangle" fill="#E9EEEF" stroke="none" />
+      <path d="M0 0L18 0L18 18L0 18L0 0Z" transform="translate(207 150)" id="Rectangle" fill="#E9EEEF" stroke="none" />
+      <path d="M0 0L14 0L14 14L0 14L0 0Z" transform="translate(49 101)" id="Rectangle" fill="#E9EEEF" stroke="none" />
+      <path d="M0 0L7 0L7 7L0 7L0 0Z" transform="translate(25 20)" id="Rectangle" fill="#E9EEEF" stroke="none" />
+    </g>
+    <g id="rocket" transform="matrix(0.7071066 0.7071069 -0.7071069 0.7071066 170.664 5.722046E-06)">
+      <path d="M12 31.6411C18.6274 31.6411 24 31.3166 24 20.1745C24 9.03244 12 0 12 0C12 0 0 9.03244 0 20.1745C0 31.3166 5.37258 31.6411 12 31.6411Z" transform="matrix(1 0 0 -1 69 211.6411)" id="Oval" fill="#E9EEEF" stroke="none" />
+      <path d="M71.5623 71.2008C71.5623 71.2008 55.5425 0 35.7811 0C16.0198 0 0 71.2008 0 71.2008L71.5623 71.2008Z" transform="translate(5.684342E-14 69)" id="Oval" fill="#FFFFFF" stroke="#252529" stroke-width="4" stroke-linecap="round" />
+      <path d="M71.5623 71.2008C71.5623 71.2008 55.5425 0 35.7811 0C16.0198 0 0 71.2008 0 71.2008L71.5623 71.2008Z" transform="matrix(-1 0 0 1 143.5623 69)" id="Oval" fill="#FFFFFF" stroke="#252529" stroke-width="4" />
+      <path d="M53.8889 154.484C129.606 157.28 103.389 152.9 103.389 98.5C103.389 44.0999 81.227 0 53.8889 0C26.5508 0 4.38889 44.0999 4.38889 98.5C4.38889 152.9 -21.8278 151.689 53.8889 154.484Z" transform="translate(18.11111 -2.771117E-12)" id="Oval" fill="#6EB2FB" stroke="#252529" stroke-width="4" />
+      <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z" transform="translate(52 40)" id="Oval" fill="#FFFFFF" stroke="#252529" stroke-width="4" />
+      <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" transform="translate(62 96)" id="Oval" fill="#FFFFFF" stroke="#252529" stroke-width="4" />
+    </g>
+  </g>
+</svg>

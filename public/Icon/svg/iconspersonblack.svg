@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <rect width="20" height="20" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="icons/person/black" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
+    <path d="M4.7249 0C9.22084 2.05737e-14 9.75776 7 9.75776 7L1.69203 7Q1.58952 7 1.49404 6.99243Q1.39856 6.98486 1.31088 6.96979Q1.2232 6.95471 1.14404 6.93226Q1.06488 6.9098 0.994879 6.88014Q0.924881 6.85048 0.864619 6.81387Q0.804357 6.77725 0.754321 6.73397Q0.704285 6.69069 0.664884 6.64111Q0.625483 6.59153 0.597038 6.53604Q0.568592 6.48056 0.551335 6.41962Q0.534078 6.35869 0.528149 6.2928Q0.522221 6.22691 0.527669 6.1566Q0.533118 6.0863 0.549899 6.01215Q0.56668 5.93801 0.594657 5.86063Q0.622634 5.78324 0.661578 5.70325Q0.700522 5.62326 0.750117 5.54132Q0.799711 5.45938 0.859551 5.37615C-0.307968 7 0.228951 -2.0911e-14 4.7249 0Z" transform="translate(5.370665 10)" id="oval" fill="none" stroke="#2E2E2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M4 8C6.20914 8 8 6.20914 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8Z" transform="translate(6 2)" id="oval" fill="none" stroke="#2E2E2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
