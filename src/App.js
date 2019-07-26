@@ -11,26 +11,82 @@ class App extends React.Component{
     super()
     this.state = {
       departament: [],
-      isLoaded: false
+      isLoading: true
     }
   }
 
 
+  /*
+  componentWillUpdate(nextProps, nextState){
+    localStorage.setItem('departament', JSON.stringify(nextState.departament))
+
+    //console.log(JSON.stringify(nextState.departament))
+    //console.log(localStorage.getItem('departament'))
+
+    //if(){
+
+    //}
+    //localStorage.setItem('departament', JSON.stringify(nextState.departament))
+    localStorage.getItem('departament') && this.setState({
+      departament: JSON.parse(localStorage.getItem('departament'))
+    })
+  }
+
   componentDidMount(){
+    // TODO: turn into REDUX
+    
+    //console.log(localStorage.getItem('departament'))
+
+    if(!localStorage.getItem('departament')){
+      fetch("https://backendapi.turing.com/departments")
+          .then(response => response.json())
+          .then(result =>  {
+              this.setState({
+                  departament: result,
+                  isLoading: true
+              })
+      })
+      console.log("fething")
+    } else {
+      console.log("usando do storage")
+    }
 
 
+  }
+  */
+
+  componentWillMount() {
+    localStorage.getItem('departament') && this.setState({
+      departament: JSON.parse(localStorage.getItem('departament')),
+      isLoading: false
+    })
+  }
+  
+
+  componentDidMount(){
+    // TODO: turn into REDUX
+    
+    if(!localStorage.getItem('departament')){
+      this.fetchData()
+    }
+    
+  }
+
+  componentWillUpdate(nextProps, nextState) {
+    localStorage.setItem('departament', JSON.stringify(nextState.departament))
+    localStorage.setItem('departamentDate', Date.now())
+  }
+  
+  fetchData(){
     fetch("https://backendapi.turing.com/departments")
         .then(response => response.json())
         .then(result =>  {
             this.setState({
                 departament: result,
-                isLoaded: true
+                isLoading: false
             })
     })
-
-
   }
-
 
   render(){
     return(

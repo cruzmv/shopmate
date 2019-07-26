@@ -3,7 +3,12 @@ import React from 'react'
 class NumberRed extends React.Component{
     render(){
         return(
-            <svg width="24px" height="27px" viewBox="0 0 24 27" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <div id="numbag" className="numberCircle numberCircle-red">{this.props.number}</div>
+        )
+    }
+}
+ /*
+            <svg width="24px" height="27px" viewBox="0 0 24 27" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="numbag">
               <defs>
                 <rect width="24" height="27" id="NumberRed" />
                 <clipPath id="clip_1">
@@ -11,21 +16,23 @@ class NumberRed extends React.Component{
                 </clipPath>
               </defs>
               <g id="ccontrolsnuRed" clipPath="url(#clip_1)">
-                <use xlinkHref="#NumberRed" stroke="none" fill="#FFFFFF" />
+                <use xlinkHref="#NumberRed" stroke="none" fill="transparent" />
                 <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" transform="translate(0 3)" id="ccontrolsnuRed-bg" fill="#F62F5E" stroke="none" />
                 <g id="ccontrolsnuRed-a" fill="#FFFFFF" transform="translate(8.864 0)">
                 <text x={this.props.number>9 ? "-20%": "0%"} y="75%">{this.props.number}</text>
                 </g>
               </g>
             </svg>
-        )
-    }
-}
-
+*/
 class NumberWhite extends React.Component{
     render(){
         return(
-            <svg width="24px" height="27px" viewBox="0 0 24 27" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <div id="numbag" className="numberCircle numberCircle-white">{this.props.number}</div>
+        )
+    }
+}
+/* 
+            <svg width="24px" height="27px" viewBox="0 0 24 27" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="numbag">
               <desc>Created with Lunacy</desc>
               <defs>
                 <rect width="24" height="27" id="NumberWhite" />
@@ -41,9 +48,8 @@ class NumberWhite extends React.Component{
                 </g>
               </g>
             </svg>
-        )
-    }
-}
+
+*/
 
 class NumberPagingLight extends React.Component{
     render(){

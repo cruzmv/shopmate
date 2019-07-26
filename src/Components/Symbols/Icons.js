@@ -12,7 +12,7 @@ class BagBlack extends React.Component{
                 </clipPath>
               </defs>
               <g id="iconsbagbl" clipPath="url(#clip_1)">
-                <use href="#BagBlack" stroke="none" fill="#FFFFFF" />
+                <use href="#BagBlack" stroke="none" fill="transparent" />
                 <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
                 <path d="M0.848021 0.994514L0.0054386 9.00549Q-0.00530581 9.10764 0.00297241 9.20582Q0.0112506 9.304 0.038282 9.395Q0.0653133 9.48601 0.110218 9.56688Q0.155122 9.64775 0.216438 9.71585Q0.277753 9.78396 0.353483 9.83707Q0.429213 9.89019 0.516893 9.92659Q0.604572 9.963 0.701346 9.9815Q0.798119 10 0.900837 10L15.0591 10Q15.1618 10 15.2588 9.98148Q15.3557 9.96295 15.4438 9.92651Q15.5319 9.89007 15.6083 9.83689Q15.6846 9.78371 15.7467 9.71553Q15.8088 9.64735 15.8547 9.56639Q15.9005 9.48542 15.9286 9.39431Q15.9566 9.3032 15.966 9.20491Q15.9755 9.10662 15.9659 9.00435L15.2165 0.99565Q15.2069 0.89338 15.1791 0.795089Q15.1513 0.696799 15.1062 0.605689Q15.061 0.514579 15 0.433615Q14.9391 0.352652 14.8642 0.284472Q14.7893 0.216291 14.7031 0.163113Q14.6168 0.109935 14.5218 0.0734911Q14.4269 0.0370471 14.3265 0.0185236Q14.226 0 14.1233 0L1.95262 0Q1.84991 0 1.74924 0.0185024Q1.64857 0.0370048 1.55324 0.0734073Q1.4579 0.10981 1.371 0.162927Q1.28409 0.216044 1.20845 0.284147Q1.13281 0.35225 1.07089 0.433121Q1.00898 0.513991 0.962802 0.604998Q0.916627 0.696004 0.887696 0.794182Q0.858765 0.89236 0.848021 0.994514Z" transform="translate(2.015682 8)" id="Path" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M0 7.98587L0.0150555 4.00957Q0.0158318 3.80455 0.0352385 3.60268Q0.0546452 3.40081 0.0925242 3.20372Q0.130403 3.00663 0.186445 2.81594Q0.242487 2.62525 0.316236 2.44251Q0.389984 2.25977 0.480837 2.08647Q0.57169 1.91317 0.678907 1.75072Q0.786124 1.58827 0.908829 1.438Q1.03154 1.28773 1.16873 1.15087Q1.30592 1.014 1.45649 0.891661Q1.60705 0.769317 1.76976 0.662492Q1.93246 0.555667 2.10598 0.465231Q2.2795 0.374796 2.46242 0.301488Q2.64534 0.228179 2.83616 0.172597Q3.02699 0.117014 3.22417 0.0796095Q3.42134 0.0422053 3.62326 0.0232847Q3.82518 0.00436413 4.0302 0.00408155L4 0.00412317Q4.20502 0.00384059 4.40687 0.0222049Q4.60872 0.0405691 4.80575 0.0774305Q5.00279 0.114292 5.19341 0.16935Q5.38402 0.224407 5.56666 0.297212Q5.74931 0.370018 5.92248 0.459976Q6.09566 0.549935 6.25796 0.656314Q6.42027 0.762692 6.57037 0.884623Q6.72047 1.00655 6.85714 1.14304Q6.99382 1.27953 7.11596 1.42946Q7.2381 1.5794 7.3447 1.74155Q7.4513 1.90371 7.5415 2.07676Q7.6317 2.24981 7.70475 2.43236Q7.77781 2.6149 7.83313 2.80544Q7.88845 2.99598 7.92558 3.19296Q7.96272 3.38995 7.98136 3.59177Q8 3.79359 8 3.99861L8 8.00951" transform="translate(6 2)" id="Path" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -45,9 +45,9 @@ class BagWhite extends React.Component{
 
 class SearchBlack extends React.Component{
     render(){
+        const classPosition = this.props.position
         return(
-            <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-              <desc>Created with Lunacy</desc>
+            <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
               <defs>
                 <rect width="20px" height="20px" id="SearchBlack" />
                 <clipPath id="clip_1">
@@ -67,8 +67,9 @@ class SearchBlack extends React.Component{
 
 class SearchWhite extends React.Component{
     render(){
+      const classPosition = this.props.position
       return(
-        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
           <defs>
             <rect width="20" height="20" id="SearchWhite" />
             <clipPath id="clip_1">
@@ -134,10 +135,11 @@ class BurgerWhite extends React.Component{
 
 class IconCloseSmallBlack extends React.Component{
     render(){
+        const classPosition = this.props.position
         return(
-            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
                 <g>
-                <rect fill="#fff" id="canvas_background" height="22" width="22" y="-1" x="-1"/>
+                <rect fill="transparent" id="canvas_background" height="22" width="22" y="-1" x="-1"/>
                 <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
                 <rect fill="url(#gridpattern)" strokeWidth="0" y="0" x="0" height="100%" width="100%"/>
                 </g>
@@ -153,10 +155,11 @@ class IconCloseSmallBlack extends React.Component{
 
 class IconCloseSmallWhite extends React.Component{
     render(){
+        const classPosition = this.props.position
         return(
-            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
                 <g>
-                <rect fill="#fff" id="canvas_background" height="22" width="22" y="-1" x="-1"/>
+                <rect fill="transparent" id="canvas_background" height="22" width="22" y="-1" x="-1"/>
                 <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
                 <rect fill="url(#gridpattern)" strokeWidth="0" y="0" x="0" height="100%" width="100%"/>
                 </g>
@@ -1030,6 +1033,8 @@ class IconRocket extends React.Component{
         )
     }
 }
+
+
 
 export {BagBlack, BagWhite, 
         SearchBlack, SearchWhite, 

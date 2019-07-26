@@ -10,16 +10,18 @@
   background: #FFFFFF
 }
 
-#logotextre {
+#logotext {
   width: 229px;
   height: 72px;
-  background: #FFFFFF
+  background: transparent
 }
 
-#logotextwh {
+#logotext-bg {
   width: 229px;
   height: 72px;
-  background: #FFFFFF
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }
 
 #iconsburge {
@@ -32,12 +34,19 @@
 #SHOPMATE {
   width: 176.77px;
   height: 29px;
-  color: #f62f5e;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
   letter-spacing: 4px;
+}
+
+.colorRed{
+  color: #f62f5e;
+}
+
+.colorWhite{
+  color: #ffffff;
 }
 
 #iconsclose {
@@ -1302,6 +1311,10 @@
   background: #2e2e2e;
 }
 
+.bg-grey{
+  background: #efefef;
+}
+
 #menu {
   width: 438px;
   height: 36px;
@@ -1311,7 +1324,6 @@
 .linkMenu {
   width: 80px;
   height: 36px;
-  
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 700;
@@ -1332,11 +1344,31 @@
 
 
 #numbag{
-  position: absolute;
-  top: -15px;
-  left: 140px;
+  position: relative;
+  top: -10px;
+  left: -10px;
 }
 
+.numberCircle {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.numberCircle-red {
+  background: #F62F5E;
+  color: #ffffff;
+}
+
+.numberCircle-white {
+  background: #ffffff;
+  color: #F62F5E;
+}
 
 #iconsTop {
   display: flex;
@@ -1354,4 +1386,133 @@
 
 .hide {
   visibility: hidden;
+}
+
+
+#searchBox {
+  width: 260px;
+  height: 36px;
+}
+
+.searchBox-bg {
+  width: 260px;
+  height: 36px;
+  border: solid 1px #e1e1e1;
+  background: #fff;
+  border-radius: 24px;
+  opacity: 0.5;
+}
+
+.searchBox-bg::placeholder{
+  width: 112.36px;
+  height: 24px;
+  color: #bababa;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.searchBox-lupa-position{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.searchBox-close-position{
+  position: absolute;
+  left: 240px;
+  top: 10px;
+}
+
+
+#header {
+  width: 1000px;
+  height: 49px;
+}
+
+#header-bg {
+  width: 1000px;
+  height: 48px;
+}
+
+
+#hior {
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.font-black{
+  color: #2e2e2e;
+}
+
+.font-white{
+  color: #ffffff;
+}
+
+#signinRegister {
+  height: 36px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+
+.dailyDeals {
+  width: 110px;
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+#currency {
+  width: 80px;
+  height: 36px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+#currency-flag {
+  width: 24px;
+  height: 24px;
+}
+
+
+#currency-text {
+  width: 48.28px;
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+
+#head-icons {
+  width: 34px;
+  height: 34px;
+}
+
+#yourbag {
+  width: 121.2px;
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.displayFlex{
+  display: flex;
 }
