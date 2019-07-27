@@ -15,53 +15,12 @@ class App extends React.Component{
     }
   }
 
-
-  /*
-  componentWillUpdate(nextProps, nextState){
-    localStorage.setItem('departament', JSON.stringify(nextState.departament))
-
-    //console.log(JSON.stringify(nextState.departament))
-    //console.log(localStorage.getItem('departament'))
-
-    //if(){
-
-    //}
-    //localStorage.setItem('departament', JSON.stringify(nextState.departament))
-    localStorage.getItem('departament') && this.setState({
-      departament: JSON.parse(localStorage.getItem('departament'))
-    })
-  }
-
-  componentDidMount(){
-    // TODO: turn into REDUX
-    
-    //console.log(localStorage.getItem('departament'))
-
-    if(!localStorage.getItem('departament')){
-      fetch("https://backendapi.turing.com/departments")
-          .then(response => response.json())
-          .then(result =>  {
-              this.setState({
-                  departament: result,
-                  isLoading: true
-              })
-      })
-      console.log("fething")
-    } else {
-      console.log("usando do storage")
-    }
-
-
-  }
-  */
-
   componentWillMount() {
     localStorage.getItem('departament') && this.setState({
       departament: JSON.parse(localStorage.getItem('departament')),
       isLoading: false
     })
   }
-  
 
   componentDidMount(){
     // TODO: turn into REDUX
@@ -93,7 +52,6 @@ class App extends React.Component{
       <BrowserRouter >
         <div>
           <Root>
-            {/*<Route exact path={"/"} component={Web1} />*/}
             <Route exact path={"/"} render={props => <Web1 store={this.state} {...props} />} />
             <Route path="/Web2/:id" render={props => <Web2 store={this.state} {...props} />} />
           </Root>
@@ -104,7 +62,6 @@ class App extends React.Component{
 
 
 }
-
 
 class Root extends React.Component{
   render(){

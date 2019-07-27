@@ -3,6 +3,19 @@ import React from 'react'
 class ButtonMedWhite extends React.Component{
     render(){
         return(
+          <div id="buttonsmedWhite">
+            <div id="buttonsmedWhite-bg">
+              <label id="buttonsmedWhite-calltoActi">
+                {this.props.text}
+              </label>
+            </div>
+          </div>
+        )
+    }
+
+}
+
+/*
             <svg width="163px" height="48px" viewBox="0 0 163 48" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <rect width="163" height="48" id="ButtonMedWhite" />
@@ -18,10 +31,8 @@ class ButtonMedWhite extends React.Component{
                 </g>
               </g>
             </svg>
-        )
-    }
+*/
 
-}
 
 class ButtonMedRed extends React.Component{
     render(){

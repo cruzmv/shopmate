@@ -90,8 +90,28 @@ class SearchWhite extends React.Component{
 class BurgerRed extends React.Component{
     render(){
         return(
+          <svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <rect width="72" height="72" id="BurgerRed" />
+              <clipPath id="clip_1-red">
+                <use xlinkHref="#BurgerRed" clipRule="evenodd" />
+              </clipPath>
+            </defs>
+            <g id="iconsburgeRed" clipPath="url(#clip_1-red)">
+              <use xlinkHref="#BurgerRed" stroke="none" fill="transparent" />
+              <path d="M0 0L72 0L72 72L0 72L0 0Z" id="iconsburgeRed-bG" fill="none" stroke="none" />
+              <path d="M0 1L30 1" transform="translate(21 27)" id="iconsburgeRed-path1" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M0 1L30 1" transform="translate(21 35)" id="iconsburgeRed-path2" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M0 1L30 1" transform="translate(21 43)" id="iconsburgeRed-path3" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </g>
+          </svg>          
+        )
+    }
+}
+
+
+/*
             <svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-              <desc>Created with Lunacy</desc>
               <defs>
                 <rect width="72" height="72" id="BurgerRed" />
                 <clipPath id="clip_1">
@@ -106,14 +126,18 @@ class BurgerRed extends React.Component{
                 <path d="M0 1L30 1" transform="translate(21 44)" id="Path" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </g>
             </svg>
-        )
-    }
-}
+
+*/
 
 class BurgerWhite extends React.Component{
     render(){
         return(
-            <svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <svg width="72px" 
+                 height="72px" 
+                 viewBox="0 0 72 72" 
+                 version="1.1" 
+                 xmlnsXlink="http://www.w3.org/1999/xlink" 
+                 xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <rect width="72" height="72" id="BurgerWhite" />
                 <clipPath id="BurgerWhite">
@@ -195,40 +219,76 @@ class IconCloseSmallRed extends React.Component{
 class IconCloseBigRed extends React.Component{
     render(){
         return(
-                <svg width="72" height="72" xmlns="http://www.w3.org/2000/svg">
-                <g>
-                <rect fill="none" id="canvas_background" height="74" width="74" y="-1" x="-1"/>
-                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="IconCloseBigRed">
-                <rect fill="url(#IconCloseBigRed)" strokeWidth="0" y="0" x="0" height="100%" width="100%"/>
-                </g>
-                </g>
-                <g>
-                <line stroke="#f62f5e" strokeLinecap="undefined" strokeLinejoin="undefined" id="svg_5" y2="67.227438" x2="67.6787" y1="4.772561" x1="5.043321" fillOpacity="null" strokeWidth="1.5" fill="none"/>
-                <line transform="rotate(90.04784393310547 36.36101150512696,36.180503845214844) " stroke="#f62f5e" strokeLinecap="undefined" strokeLinejoin="undefined" id="svg_7" y2="67.407943" x2="67.6787" y1="4.953066" x1="5.043321" strokeWidth="1.5" fill="none"/>
-                </g>
-                </svg>
+          <svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <rect width="72" height="72" id="IconCloseBigRed" />
+              <clipPath id="clip_1-close-red">
+                <use xlinkHref="#IconCloseBigRed" clipRule="evenodd" />
+              </clipPath>
+            </defs>
+            <g id="iconscloseBr" clipPath="url(#clip_1-close-red)">
+              <use xlinkHref="#IconCloseBigRed" stroke="none" fill="transparent" />
+              <path d="M0 0L72 0L72 72L0 72L0 0Z" id="iconscloseBr-bG" fill="none" stroke="none" />
+              <path d="M0 0L21.917 22.0882" transform="translate(25.07384 25.04777)" id="iconscloseBr-path1" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M0 0L21.917 22.0882" transform="matrix(-1 0 0 1 46.99083 25.04777)" id="iconscloseBr-path2" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </g>
+          </svg>          
         )
     }
 }
 
+/*
+                <svg width="72" height="72" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <rect fill="none" id="canvas_background" height="74" width="74" y="-1" x="-1"/>
+                    <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="IconCloseBigRed">
+                      <rect fill="url(#IconCloseBigRed)" strokeWidth="0" y="0" x="0" height="100%" width="100%"/>
+                    </g>
+                  </g>
+                  <g>
+                    <line stroke="#f62f5e" strokeLinecap="undefined" strokeLinejoin="undefined" id="svg_5" y2="67.227438" x2="67.6787" y1="4.772561" x1="5.043321" fillOpacity="null" strokeWidth="1.5" fill="none"/>
+                    <line transform="rotate(90.04784393310547 36.36101150512696,36.180503845214844) " stroke="#f62f5e" strokeLinecap="undefined" strokeLinejoin="undefined" id="svg_7" y2="67.407943" x2="67.6787" y1="4.953066" x1="5.043321" strokeWidth="1.5" fill="none"/>
+                  </g>
+                </svg>
+
+*/
+
+
 class IconCloseBigWhite extends React.Component{
     render(){
         return(
+          <svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <rect width="72" height="72" id="IconCloseBigWhite" />
+              <clipPath id="clip_1Close">
+                <use xlinkHref="#IconCloseBigWhite" clipRule="evenodd" />
+              </clipPath>
+            </defs>
+            <g id="iconscloseBw" clipPath="url(#clip_1Close)">
+              <use xlinkHref="#IconCloseBigWhite" stroke="none" fill="transparent" />
+              <path d="M0 0L72 0L72 72L0 72L0 0Z" id="conscloseBw-b" fill="none" stroke="none" />
+              <path d="M0 0L21.917 22.0882" transform="translate(25 25)" id="iconscloseBw-path1" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
+              <path d="M0 0L21.917 22.0882" transform="matrix(-1 0 0 1 46.91699 25)" id="iconscloseBw-path2" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
+            </g>
+          </svg>
+        )
+    }
+}
+
+/*
                 <svg width="72" height="72" xmlns="http://www.w3.org/2000/svg">
                 <g>
-                <rect fill="none" id="canvas_background" height="74" width="74" y="-1" x="-1"/>
-                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="IconCloseBigWhite">
+                <rect fill="none" id="iconscloseBB" height="74" width="74" y="-1" x="-1"/>
+                <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="iconscloseBB-bg">
                 <rect fill="url(#IconCloseBigWhite)" strokeWidth="0" y="0" x="0" height="100%" width="100%"/>
                 </g>
                 </g>
                 <g>
-                <line stroke="#fff" strokeLinecap="undefined" strokeLinejoin="undefined" id="svg_5" y2="67.227438" x2="67.6787" y1="4.772561" x1="5.043321" fillOpacity="null" strokeWidth="1.5" fill="none"/>
-                <line transform="rotate(90.04784393310547 36.36101150512696,36.180503845214844) " stroke="#fff" strokeLinecap="undefined" strokeLinejoin="undefined" id="svg_7" y2="67.407943" x2="67.6787" y1="4.953066" x1="5.043321" strokeWidth="1.5" fill="none"/>
+                <line stroke="#fff" strokeLinecap="undefined" strokeLinejoin="undefined" id="iconscloseBB-path1" y2="67.227438" x2="67.6787" y1="4.772561" x1="5.043321" fillOpacity="null" strokeWidth="1.5" fill="none"/>
+                <line transform="rotate(90.04784393310547 36.36101150512696,36.180503845214844) " stroke="#fff" strokeLinecap="undefined" strokeLinejoin="undefined" id="iconscloseBB-path2" y2="67.407943" x2="67.6787" y1="4.953066" x1="5.043321" strokeWidth="1.5" fill="none"/>
                 </g>
                 </svg>
-        )
-    }
-}
+*/
 
 class IconCloseBigBlack extends React.Component{
     render(){
