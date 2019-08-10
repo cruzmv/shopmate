@@ -113,5 +113,6 @@ class TextWhite extends React.Component{
             </svg>
 
 */
+
 export {CircleRed, CircleWhite, TextRed, TextWhite}
 

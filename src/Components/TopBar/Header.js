@@ -23,7 +23,7 @@ class Header extends React.Component{
             <div id="header">
                 <div id="header-bg" className={bgColor}>
                     <Container>
-                        <Row id="topbarrow">
+                        <Row className="alignItemsCenter">
                             <Col md={3}>
                                 <SignInOrReg skin={this.props.skin}/>
                             </Col>

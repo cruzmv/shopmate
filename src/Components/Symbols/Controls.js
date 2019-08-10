@@ -115,7 +115,6 @@ class NumberPagingLight extends React.Component{
     }
 }
 
-
 class NumberPagingDark extends React.Component{
     render(){
         return(
@@ -171,7 +170,6 @@ class NumberPagingDark extends React.Component{
     }
 }
 
-
 class CheckOn extends React.Component{
     render(){
         return(
@@ -201,7 +199,6 @@ class CheckOn extends React.Component{
     }
 }
 
-
 class CheckOff extends React.Component{
     render(){
         return(
@@ -220,7 +217,6 @@ class CheckOff extends React.Component{
         )
     }
 }
-
 
 class RadioOn extends React.Component{
     render(){
@@ -250,7 +246,6 @@ class RadioOn extends React.Component{
     }
 }
 
-
 class RadioOff extends React.Component{
     render(){
         return(
@@ -269,8 +264,6 @@ class RadioOff extends React.Component{
         )
     }
 }
-
-
 
 class RadioPagingBlue extends React.Component{
     render(){
@@ -326,10 +319,6 @@ class RadioPagingBlue extends React.Component{
         )
     }
 }
-
-
-
-
 
 export {NumberRed, NumberWhite, 
         NumberPagingLight, NumberPagingDark, RadioPagingBlue,

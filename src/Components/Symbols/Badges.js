@@ -21,7 +21,6 @@ class BadgesGreen extends React.Component{
         )
     }
 }
-
 class BadgesOrange extends React.Component{
     render(){
         return(
@@ -44,8 +43,6 @@ class BadgesOrange extends React.Component{
         )
     }
 }
-
-
 class BadgesRed extends React.Component{
     render(){
         return(
@@ -67,8 +64,6 @@ class BadgesRed extends React.Component{
         )
     }
 }
-
-
 class BadgesBlue extends React.Component{
     render(){
         return(

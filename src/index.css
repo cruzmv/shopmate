@@ -4,11 +4,55 @@
   background: #FFFFFF
 }
 
+
+
+
+#iconssearc-black {
+  width: 20px;
+  height: 20px;
+}
+
+#iconssearc-black-bounds {
+  width: 20px;
+  height: 20px;
+}
+
+#iconssearc-black-line {
+  width: 4px;
+  height: 4px;
+  border: solid #2e2e2e
+}
+
+#iconssearc-black-oval {
+  width: 12px;
+  height: 12px;
+  border: solid #2e2e2e
+}
+
+
+
+
+
+
+/*
 #iconssearc {
   width: 20px;
   height: 20px;
   background: #FFFFFF
 }
+
+#iconssearc-line-black {
+  width: 4px;
+  height: 4px;
+  border: solid #2e2e2e
+}
+
+#iconssearc-oval-black {
+  width: 12px;
+  height: 12px;
+  border: solid #2e2e2e
+}
+*/
 
 #logotext {
   width: 229px;
@@ -47,6 +91,26 @@
 
 .colorWhite{
   color: #ffffff;
+}
+
+.colorDarkGrey{
+  color: #2e2e2e;;
+}
+
+.BackColorWhite{
+  background: #ffffff;
+}
+
+.BackColorBlack{
+  background: #2e2e2e;
+}
+
+.BackColorRed{
+  background: #f62f5e;
+}
+
+.BackColorGrey{
+  background: #efefef;
 }
 
 #iconsclose {
@@ -1437,7 +1501,7 @@
   letter-spacing: 1.03125px;
 }
 
-#topbarrow{
+.alignItemsCenter{
   align-items: center;
 }
 
@@ -1612,10 +1676,6 @@
   line-height: 36px;
 }
 
-.displayFlex{
-  display: flex;
-}
-
 .cursorHandClick{
   cursor: pointer;
 }
@@ -1696,8 +1756,412 @@
   height: 344px;
 }
 
-#dropdown2-bg{
+#dropdown2-bg-black{
   width: 1000px;
   height: 344px;
   background: #2e2e2e;
 }
+
+#dropdown2-bg-grey{
+  width: 1000px;
+  height: 344px;
+  background: #efefef;
+}
+
+
+.categoryMenu {
+  width: 50.34px;
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 24px;
+}
+
+#contentDropdown2{
+  height: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.padingTop40px{
+  padding-top: 40px;
+}
+
+
+#features {
+  width: 1000px;
+  height: 49px;
+}
+
+#features-bg {
+  width: 1000px;
+  height: 48px;
+}
+
+#guaranteeo {
+  width: 161.22px;
+  height: 36px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+#trybeforey {
+  width: 147.54px;
+  height: 36px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+#freeshippi {
+  width: 108.15px;
+  height: 36px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+#payafterde {
+  width: 137.96px;
+  height: 36px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+
+#topbarwith {
+  width: 1000px;
+  height: 600px;
+}
+
+#topbarwith-bg {
+  width: 1000px;
+  height: 600px;
+  background: #f62f5e;
+  background-image: url("images-promo1.png");
+  background-size: 100% 100%;
+}
+
+
+
+
+
+#footerbig {
+  width: 1000px;
+  height: 241px;
+}
+
+#footerbigSub {
+  width: 1000px;
+  height: 264px;
+}
+
+#footerbig-bg {
+  width: 1000px;
+  height: 241px;
+}
+
+#footersmall {
+  width: 1000px;
+  height: 72px;
+}
+
+#footersmall-bg {
+  width: 1000px;
+  height: 72px;
+}
+
+#footerMap {
+  width: 1000px;
+  height: 264px;
+  background-image: url('/Images/images-map1.png');
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.footerHeadLink {
+  /*width: 91.99px;*/
+  height: 24px;
+  font-family: "LucidaGrande-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footerLink {
+  width: 85.57px;
+  /*height: 72px;*/
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+
+.marginTop50px{
+  margin-top: 50px;
+}
+
+.marginTop20px{
+  margin-top: 20px;
+}
+
+.justifyCenter{
+  justify-content: center;
+}
+
+.alignCenter{
+  align-items: center;
+}
+
+.textAlignCenter{
+  text-align: center;
+}
+
+.displayFlex{
+  display: flex
+}
+
+.featureAlign{
+  display: flex;
+  align-items: center;
+}
+
+.marginRight20px{
+  margin-right: 20px;
+}
+
+.paddingTop20px{
+  padding-top: 20px;
+}
+
+.paddingTop40px{
+  padding-top: 40px;
+}
+
+.paddingTop50px{
+  padding-top: 50px;
+}
+
+
+.fitContent{
+  height: 100%;
+}
+
+.relativePosition{
+  position: relative;
+}
+
+.alignBottom{
+  position: absolute;
+  bottom: 0px;
+}
+
+.noWrap{
+  white-space: nowrap;
+}
+
+#footer-menu{
+    /*width: 779px;*/
+    height: 36px;
+}
+
+.footerMenuLink {
+  width: 180px;
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 1.03125px;
+}
+
+#socialicon {
+  /*width: 220px;*/
+  height: 40px;
+}
+
+#shopmateLt {
+  /*width: 343,99px;*/
+  height: 24px;
+  color: #6c6c6c;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#o800{
+  width: 112.41px;
+  height: 24px;
+  font-family: "LucidaGrande-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#infoshopma {
+  width: 148.84px;
+  height: 24px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+#bggrey {
+  width: 1000px;
+  height: 49px;
+}
+
+.bggrey-grey{
+  background: #efefef;
+}
+.bggrey-black{
+  background: #1c1c1c;
+}
+
+
+
+#aBOUT {
+  width: 50.93px;
+  height: 24px;
+  font-family: "LucidaGrande-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#cONTACTUS {
+  width: 109.26px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+#tERMSANDCO {
+  width: 213.73px;
+  height: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+
+#sUBSCRIBEF {
+  width: 437.55px;
+  height: 24px;
+  font-family: "LucidaGrande-Bold";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#discountfo {
+  width: 467.14px;
+  height: 36px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 1.03125px;
+}
+
+#carrytheda {
+  width: 530px;
+  height: 72px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+#cONTACTFOR {
+  width: 439.07px;
+  height: 24px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.mapCircle {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  background: #F62F5E;
+  opacity: 0.7359492;
+  align-self: center;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+.pinCircle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  position: relative;
+  left: -17px;
+  top: -4px;  
+}
+
+#adress {
+  width: 330px;
+  height: 264px;
+  opacity: 0.7805504;
+  background: #ffffff;
+  position: absolute;
+  left: 785px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+

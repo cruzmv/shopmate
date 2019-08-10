@@ -4,14 +4,13 @@ class BagBlack extends React.Component{
     render(){
         return(
             <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-              <desc>Created with Lunacy</desc>
               <defs>
                 <rect width="20" height="20" id="BagBlack" />
-                <clipPath id="clip_1">
+                <clipPath id="clip_1-BagBlack">
                   <use href="#BagBlack" clipRule="evenodd" />
                 </clipPath>
               </defs>
-              <g id="iconsbagbl" clipPath="url(#clip_1)">
+              <g id="iconsbagbl" clipPath="url(#clip_1-BagBlack)">
                 <use href="#BagBlack" stroke="none" fill="transparent" />
                 <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
                 <path d="M0.848021 0.994514L0.0054386 9.00549Q-0.00530581 9.10764 0.00297241 9.20582Q0.0112506 9.304 0.038282 9.395Q0.0653133 9.48601 0.110218 9.56688Q0.155122 9.64775 0.216438 9.71585Q0.277753 9.78396 0.353483 9.83707Q0.429213 9.89019 0.516893 9.92659Q0.604572 9.963 0.701346 9.9815Q0.798119 10 0.900837 10L15.0591 10Q15.1618 10 15.2588 9.98148Q15.3557 9.96295 15.4438 9.92651Q15.5319 9.89007 15.6083 9.83689Q15.6846 9.78371 15.7467 9.71553Q15.8088 9.64735 15.8547 9.56639Q15.9005 9.48542 15.9286 9.39431Q15.9566 9.3032 15.966 9.20491Q15.9755 9.10662 15.9659 9.00435L15.2165 0.99565Q15.2069 0.89338 15.1791 0.795089Q15.1513 0.696799 15.1062 0.605689Q15.061 0.514579 15 0.433615Q14.9391 0.352652 14.8642 0.284472Q14.7893 0.216291 14.7031 0.163113Q14.6168 0.109935 14.5218 0.0734911Q14.4269 0.0370471 14.3265 0.0185236Q14.226 0 14.1233 0L1.95262 0Q1.84991 0 1.74924 0.0185024Q1.64857 0.0370048 1.55324 0.0734073Q1.4579 0.10981 1.371 0.162927Q1.28409 0.216044 1.20845 0.284147Q1.13281 0.35225 1.07089 0.433121Q1.00898 0.513991 0.962802 0.604998Q0.916627 0.696004 0.887696 0.794182Q0.858765 0.89236 0.848021 0.994514Z" transform="translate(2.015682 8)" id="Path" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -45,25 +44,63 @@ class BagWhite extends React.Component{
 
 class SearchBlack extends React.Component{
     render(){
+      const classPosition = this.props.position
+      return(
+        <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
+          <defs>
+            <rect width="20" height="20" id="SearchBlack" />
+            <clipPath id="clip_1-SearchBlack">
+              <use xlinkHref="#SearchBlack" clipRule="evenodd" />
+            </clipPath>
+          </defs>
+          <g id="iconssearc-black" clipPath="url(#clip_1-SearchBlack)">
+            <use xlinkHref="#SearchBlack" stroke="none" fill="#FFFFFF" />
+            <path d="M0 0L20 0L20 20L0 20L0 0Z" id="iconssearc-black-bounds" fill="none" stroke="none" />
+            <path d="M0 1.11022e-16L3.49409 3.49409" transform="translate(14.08296 13.98768)" id="iconssearc-black-line" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(3 3)" id="iconssearc-black-oval" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          </g>
+        </svg>        
+      )
+    }
+}
+
+
+/*
         const classPosition = this.props.position
         return(
+          <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
+            <defs>
+              <rect width="20" height="20" id="SearchBlack" />
+              <clipPath id="clip_1_SearchBlack">
+                <use xlinkHref="#SearchBlack" clipRule="evenodd" />
+              </clipPath>
+            </defs>
+            <g id="iconssearc" clipPath="url(#clip_1_SearchBlack)">
+              <use xlinkHref="#SearchBlack" stroke="none" fill="#FFFFFF" />
+              <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
+              <path d="M0 1.11022e-16L3.49409 3.49409" transform="translate(14.08296 13.98768)" id="iconssearc-line-black" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(3 3)" id="iconssearc-oval-black" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </g>
+          </svg>
+        )
+
+*/
+/*
             <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
               <defs>
                 <rect width="20px" height="20px" id="SearchBlack" />
-                <clipPath id="clip_1">
+                <clipPath id="clip_1-SearchBlack">
                   <use href="#SearchBlack" clipRule="evenodd" />
                 </clipPath>
               </defs>
-              <g id="iconssearc" clipPath="url(#clip_1)">
+              <g id="iconssearc" clipPath="url(#clip_1-SearchBlack)">
                 <use href="#SearchBlack" stroke="none" fill="transparent" />
                 <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
                 <path d="M0 1.11022e-16L3.49409 3.49409" transform="translate(14.08296 13.98768)" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(3 3)" id="Oval" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(3 3)" id="iconssearc-oval-black" fill="none" stroke="#2E2E2E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </g>
             </svg> 
-        )
-    }
-}
+*/
 
 class SearchWhite extends React.Component{
     render(){
@@ -72,11 +109,11 @@ class SearchWhite extends React.Component{
         <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" className={classPosition}>
           <defs>
             <rect width="20" height="20" id="SearchWhite" />
-            <clipPath id="clip_1">
+            <clipPath id="clip_1_SearchWhite">
               <use xlinkHref="#SearchWhite" clipRule="evenodd" />
             </clipPath>
           </defs>
-          <g id="icons/search/white" clipPath="url(#clip_1)">
+          <g id="iconssearc" clipPath="url(#clip_1_SearchWhite)">
             <use xlinkHref="#SearchWhite" stroke="none" fill="transparent" />
             <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
             <path d="M0 1.11022e-16L3.49409 3.49409" transform="translate(14.08296 13.98768)" id="iconsearch-line" fill="none" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
@@ -361,7 +398,7 @@ class IconBoxRed extends React.Component{
                 </clipPath>
               </defs>
               <g id="iconsboxre" clipPath="url(#clip_1)">
-                <use xlinkHref="#IconBoxRed" stroke="none" fill="#FFFFFF" />
+                <use xlinkHref="#IconBoxRed" stroke="none" fill="transparent" />
                 <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
                 <path d="M0 0L14 0L14 9L0 9L0 0Z" transform="translate(3 8)" id="Rectangle1" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M0 0L4 0L4 1L0 1L0 0Z" transform="matrix(1 0 0 -1 8 12)" id="Rectangle2" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -384,7 +421,7 @@ class IconCardRed extends React.Component{
                 </clipPath>
               </defs>
               <g id="iconscardr" clipPath="url(#clip_1)">
-                <use xlinkHref="#IconCardRed" stroke="none" fill="#FFFFFF" />
+                <use xlinkHref="#IconCardRed" stroke="none" fill="transparent" />
                 <path d="M0 0L20 0L20 20L0 20L0 0Z" id="bounds" fill="none" stroke="none" />
                 <path d="M0 0L18 0L18 12L0 12L0 0Z" transform="translate(1 4)" id="rectangleiconscardr" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M0 1L17.6952 1" transform="translate(1 7)" id="lineiconscardr1" fill="none" stroke="#F62F5E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -515,7 +552,7 @@ class IconFaceBookGray extends React.Component{
                 </clipPath>
               </defs>
               <g id="iconsfaceb-bg" clipPath="url(#clip_1)">
-                <use xlinkHref="#IconFaceBookGray" stroke="none" fill="#FFFFFF" />
+                <use xlinkHref="#IconFaceBookGray" stroke="none" fill="transparent" />
                 <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM21.353 29.586L17.715 29.586L17.715 20.793L15.897 20.793L15.897 17.762L17.715 17.762L17.715 15.943C17.715 13.472 18.742 12 21.657 12L24.085 12L24.085 15.031L22.568 15.031C21.433 15.031 21.357 15.455 21.357 16.245L21.353 17.762L24.103 17.762L23.781 20.793L21.353 20.793L21.353 29.586" id="iconsfaceb" fill="#EAEAEA" stroke="none" />
               </g>
             </svg>
@@ -534,7 +571,7 @@ class IconTwitterGray extends React.Component{
                 </clipPath>
               </defs>
               <g id="iconstwitt-bg" clipPath="url(#clip_1)">
-                <use xlinkHref="#IconTwitterGray" stroke="none" fill="#FFFFFF" />
+                <use xlinkHref="#IconTwitterGray" stroke="none" fill="transparent" />
                 <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM27.674 16.906C27.681 17.076 27.685 17.247 27.685 17.419C27.685 22.651 23.703 28.683 16.421 28.683C14.185 28.683 12.104 28.028 10.351 26.905C10.661 26.941 10.976 26.96 11.296 26.96C13.151 26.96 14.858 26.327 16.213 25.265C14.48 25.233 13.018 24.088 12.515 22.515C12.756 22.562 13.004 22.587 13.259 22.587C13.62 22.587 13.97 22.538 14.302 22.448C12.491 22.084 11.127 20.484 11.127 18.566C11.127 18.549 11.127 18.532 11.127 18.516C11.661 18.812 12.271 18.99 12.92 19.011C11.858 18.301 11.159 17.089 11.159 15.716C11.159 14.99 11.354 14.31 11.695 13.725C13.648 16.12 16.565 17.697 19.855 17.862C19.788 17.572 19.753 17.27 19.753 16.959C19.753 14.773 21.525 13 23.712 13C24.851 13 25.88 13.481 26.602 14.251C27.504 14.073 28.351 13.744 29.116 13.29C28.821 14.214 28.193 14.99 27.375 15.48C28.176 15.385 28.939 15.172 29.649 14.857C29.118 15.651 28.447 16.348 27.674 16.906" id="iconstwitt" fill="#EAEAEA" stroke="none" />
               </g>
             </svg>
@@ -555,7 +592,7 @@ class IconPinterestGray extends React.Component{
                 </clipPath>
               </defs>
               <g id="iconspinte-bg" clipPath="url(#clip_1)">
-                <use xlinkHref="#IconPinterestGray" stroke="none" fill="#FFFFFF" />
+                <use xlinkHref="#IconPinterestGray" stroke="none" fill="transparent" />
                 <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM30.302 20.151C30.302 25.757 25.757 30.302 20.151 30.302C19.152 30.302 18.187 30.156 17.274 29.886C17.66 29.276 18.081 28.494 18.296 27.711C18.421 27.26 19.01 24.921 19.01 24.921C19.363 25.594 20.394 26.186 21.49 26.186C24.754 26.186 26.967 23.211 26.967 19.229C26.967 16.219 24.417 13.414 20.541 13.414C15.718 13.414 13.286 16.872 13.286 19.755C13.286 21.501 13.946 23.054 15.365 23.633C15.597 23.728 15.806 23.637 15.873 23.379C15.919 23.201 16.031 22.752 16.08 22.565C16.148 22.31 16.122 22.221 15.934 21.999C15.526 21.516 15.265 20.892 15.265 20.008C15.265 17.443 17.183 15.147 20.262 15.147C22.988 15.147 24.486 16.812 24.486 19.037C24.486 21.964 23.191 24.434 21.268 24.434C20.205 24.434 19.411 23.555 19.665 22.479C19.97 21.193 20.562 19.804 20.562 18.876C20.562 18.046 20.116 17.352 19.193 17.352C18.107 17.352 17.235 18.476 17.235 19.98C17.235 20.938 17.559 21.586 17.559 21.586C17.559 21.586 16.448 26.293 16.253 27.118C16.071 27.889 16.048 28.74 16.076 29.448C12.5 27.878 10 24.308 10 20.151C10 14.544 14.545 10 20.151 10C25.757 10 30.302 14.544 30.302 20.151" id="iconspinte" fill="#EAEAEA" stroke="none" />
               </g>
             </svg>
@@ -575,7 +612,7 @@ class IconInstagramGray extends React.Component{
                 </clipPath>
               </defs>
               <g id="iconsinsta-bg" clipPath="url(#clip_1)">
-                <use xlinkHref="#IconInstagramGray" stroke="none" fill="#FFFFFF" />
+                <use xlinkHref="#IconInstagramGray" stroke="none" fill="transparent" />
                 <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM27.095 30.324L12.229 30.324C10.998 30.324 10 29.326 10 28.094L10 13.229C10 11.998 10.998 11 12.229 11L27.095 11C28.326 11 29.324 11.998 29.324 13.229L29.324 28.094C29.324 29.326 28.326 30.324 27.095 30.324L27.095 30.324ZM27.095 19.175L25.413 19.175C25.535 19.65 25.608 20.148 25.608 20.662C25.608 23.946 22.946 26.608 19.662 26.608C16.378 26.608 13.716 23.946 13.716 20.662C13.716 20.148 13.789 19.65 13.911 19.175L12.229 19.175L12.229 27.351C12.229 27.761 12.562 28.094 12.973 28.094L26.351 28.094C26.762 28.094 27.095 27.761 27.095 27.351L27.095 19.175L27.095 19.175ZM27.095 13.972C27.095 13.562 26.762 13.229 26.351 13.229L24.122 13.229C23.711 13.229 23.379 13.562 23.379 13.972L23.379 16.202C23.379 16.613 23.711 16.945 24.122 16.945L26.351 16.945C26.762 16.945 27.095 16.613 27.095 16.202L27.095 13.972L27.095 13.972ZM19.662 16.945C17.609 16.945 15.946 18.609 15.946 20.662C15.946 22.714 17.609 24.378 19.662 24.378C21.714 24.378 23.379 22.714 23.379 20.662C23.379 18.609 21.714 16.945 19.662 16.945L19.662 16.945Z" id="iconsinsta" fill="#EAEAEA" stroke="none" />
               </g>
             </svg>
@@ -1093,8 +1130,6 @@ class IconRocket extends React.Component{
         )
     }
 }
-
-
 
 export {BagBlack, BagWhite, 
         SearchBlack, SearchWhite, 
