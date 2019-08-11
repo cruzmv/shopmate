@@ -1229,7 +1229,7 @@
 #buttonsmedRed {
   width: 163px;
   height: 48px;
-  background: #FFFFFF}
+}
 
 #buttonsmedRed-bg {
   width: 163px;
@@ -1789,6 +1789,10 @@
   line-height: 24px;
 }
 
+.padingTop20px{
+  padding-top: 20px;
+}
+
 .padingTop40px{
   padding-top: 40px;
 }
@@ -1948,6 +1952,10 @@
 
 .marginRight20px{
   margin-right: 20px;
+}
+
+.paddingTop8Percent{
+  padding-top: 8%;
 }
 
 .paddingTop20px{
@@ -2165,3 +2173,391 @@
   align-items: center;
 }
 
+#hero1 {
+  width: 1000px;
+  height: 480px;
+}
+
+#hero1-bg {
+  width: 1000px;
+  height: 480px;
+  background: #6eb2fb;
+}
+
+#hero1-bitmap {
+  width: 1000px;
+  height: 480px;
+  background-image: url('/Images/images-woman1.png');
+}
+
+
+#background {
+  width: 472px;
+  height: 144px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+
+#and {
+  width: 472px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+
+#convergent {
+  opacity: 0.9036264;
+  width: 552px;
+  height: 72px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.hero1-itens{
+  width: 50%;
+  display: flex;
+  margin-left: 15%;
+}
+
+#fullwidth1 {
+  width: 940px;
+  height: 312px;
+}
+
+#fullwidth1-bg {
+  width: 940px;
+  height: 312px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+}
+
+#fullwidth1-bitmap {
+  width: 300px;
+  height: 300px;
+}
+
+#veraBradle {
+  width: 472px;
+  height: 36px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+#veraBradle-carrytheda {
+  width: 472px;
+  height: 72px;
+  color: #2e2e2e;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.veraBradle-itens{
+  top: 50px;
+  position: absolute;
+}
+
+
+#block123 {
+  width: 620px;
+  height: 312px;
+}
+
+#block123-bg {
+  width: 620px;
+  height: 312px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+}
+
+#block123-bitmap {
+  width: 620px;
+  height: 312px;
+  background-image: url('/Images/images-showsale.png');
+}
+
+.block123-itens{
+  padding-top: 70px;
+  padding-left: 90px;
+}
+
+#bigSummerS {
+  width: 472px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+
+#upto90disc {
+  opacity: 0.9036264;
+  width: 472px;
+  height: 36px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+
+
+#block1-img {
+  width: 179px;
+  height: 181px;
+}
+
+
+#oneoneThirty {
+  width: 300px;
+  height: 312px;
+}
+
+#oneoneThirty-bg {
+  width: 300px;
+  height: 312px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0,2);
+}
+
+
+
+
+.alignLeftCorner20x20px{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;  
+}
+
+#shorts {
+  width: 100%;
+  height: 24px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+#checkoutne {
+  width: 100%;
+  height: 48px;
+  color: #6c6c6c;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+#block2-color {
+  width: 300px;
+  height: 312px;
+  background: #fe5c07;
+}
+
+#autumn {
+  width: 100%;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#willcomeag {
+  width: 100%;
+  height: 24px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+#block3-bitmap {
+  width: 306px;
+  height: 317px;
+  background-image: url('/Images/images-eye.png');
+}
+
+#block3-color {
+  width: 300px;
+  height: 317px;
+  background: rgba(0, 152, 146,0.3974464);
+}
+
+#takealook {
+  width: 300px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#newarrival {
+  width: 300px;
+  height: 24px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+#block4-color {
+  width: 300px;
+  height: 312px;
+  background: #effc90;
+}
+
+#collection {
+  width: 253px;
+  height: 72px;
+  color: #2e2e2e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+#block5-color {
+  width: 300px;
+  height: 312px;
+  background: #84e6f1;
+}
+
+#wOW {
+  width: 100%;
+  height: 72px;
+  color: #2e2e2e;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#checkWHAT {
+  width: 100%;
+  height: 72px;
+  color: #f62f5e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 1.03125px;
+}
+
+#block6-bitmap {
+  width: 300px;
+  height: 312px;
+  background-image: url('/Images/images-model2.png');
+}
+
+#block6-color {
+  width: 300px;
+  height: 312px;
+  background: rgba(255, 210, 1, 0.3974464);
+}
+
+#fullwidth2-bitmap {
+  width: 940px;
+  height: 312px;
+  background-image: url('/Images/images-art.png');
+}
+
+#fullwidth2-newArrival {
+  width: 960px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+
+#bethefirst {
+  width: 960px;
+  height: 36px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+
+#fullwidth3-bitmap {
+  width: 940px;
+  height: 312px;
+  background-image: url('/Images/images-shoe2.png');
+}
+
+#converse {
+  width: 890px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+
+#exploresty {
+  opacity: 0.9036264;
+  width: 445px;
+  height: 72px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.paddingTopLeft50x70px{
+  padding-top: 50px;
+  padding-left: 70px;
+}

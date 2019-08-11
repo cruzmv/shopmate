@@ -1,13 +1,23 @@
 import React from 'react'
-import {FooterMap} from '../Components/Footer/Footer'
+import {FullWidth, FullWidth3} from '../Components/Header_Promo/Promos'
 
 class Web1 extends React.Component{
     render(){
         return(
             <div>
-                <FooterMap map_id="2"/>
+                <FullWidth>
+                    <FullWidth3 />
+                </FullWidth>
+            </div>
+        )
+    }
+}
 
-{
+export default Web1
+
+
+
+
 /*
                 <FooterMap map_id="2"/>
                 <FooterContact cto_id="1"/>
@@ -37,11 +47,4 @@ class Web1 extends React.Component{
                         category = {this.props.store.category}
                 />
 
-*/                
-}                
-            </div>
-        )
-    }
-}
-
-export default Web1
+*/

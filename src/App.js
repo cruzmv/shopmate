@@ -1,3 +1,8 @@
+/*
+Exemplo completo: https://github.com/TuringCom/frontend-challenge-template-2
+*/
+
+
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Container, Row } from "react-bootstrap";
